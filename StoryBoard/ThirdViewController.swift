@@ -25,6 +25,12 @@ class ThirdViewController: UIViewController {
         self.dismiss(animated: true, completion: nil)
     }
 
+    @IBAction func login(_ sender: Any) {
+        if let vc = storyboard?.instantiateViewController(withIdentifier: "loginvc") {
+            self.present(vc, animated: true, completion: nil)
+        }
+
+    }
     /*
     // MARK: - Navigation
 

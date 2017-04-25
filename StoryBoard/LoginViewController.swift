@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  LoginViewController.swift
 //  StoryBoard
 //
 //  Created by SDS-013 on 2017. 4. 25..
@@ -8,8 +8,10 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class LoginViewController: UIViewController {
 
+    @IBOutlet weak var idTextField: UITextField!
+    @IBOutlet weak var passwordTextFeild: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,18 +23,14 @@ class SecondViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func close(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
-    }
 
-    @IBOutlet weak var mySwitch: UISwitch!
-    @IBAction func nextScene(_ sender: Any) {
-    
-        if mySwitch.isOn {
-            self.performSegue(withIdentifier: "third", sender: self)
-        } else {
-            self.performSegue(withIdentifier: "fourth", sender: self)
-        }
+    @IBAction func login(_ sender: Any) {
+        let userid = idTextField.text
+        let userpassword = passwordTextFeild.text
+        
+        print("userId : \(userid) userPassword:\(userpassword)");
+        self.dismiss(animated: true, completion: nil)
+        
     }
     /*
     // MARK: - Navigation
