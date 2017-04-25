@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6553D3A71EAF1A2400367026 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553D3A61EAF1A2400367026 /* SecondViewController.swift */; };
+		6553D3AB1EAF1D8600367026 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553D3AA1EAF1D8600367026 /* FourthViewController.swift */; };
+		6553D3AD1EAF217C00367026 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6553D3AC1EAF217C00367026 /* ThirdViewController.swift */; };
 		65AE121C1EAF11FE00A8A6EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE121B1EAF11FE00A8A6EC /* AppDelegate.swift */; };
 		65AE121E1EAF11FE00A8A6EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AE121D1EAF11FE00A8A6EC /* ViewController.swift */; };
 		65AE12211EAF11FE00A8A6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65AE121F1EAF11FE00A8A6EC /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6553D3A61EAF1A2400367026 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		6553D3AA1EAF1D8600367026 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		6553D3AC1EAF217C00367026 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		65AE12181EAF11FE00A8A6EC /* StoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AE121B1EAF11FE00A8A6EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65AE121D1EAF11FE00A8A6EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,12 +60,15 @@
 		65AE121A1EAF11FE00A8A6EC /* StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				6553D3A61EAF1A2400367026 /* SecondViewController.swift */,
 				65AE121B1EAF11FE00A8A6EC /* AppDelegate.swift */,
 				65AE121D1EAF11FE00A8A6EC /* ViewController.swift */,
 				65AE121F1EAF11FE00A8A6EC /* Main.storyboard */,
 				65AE12221EAF11FE00A8A6EC /* Assets.xcassets */,
 				65AE12241EAF11FE00A8A6EC /* LaunchScreen.storyboard */,
 				65AE12271EAF11FE00A8A6EC /* Info.plist */,
+				6553D3AA1EAF1D8600367026 /* FourthViewController.swift */,
+				6553D3AC1EAF217C00367026 /* ThirdViewController.swift */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -96,6 +105,7 @@
 				TargetAttributes = {
 					65AE12171EAF11FE00A8A6EC = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J248QV4EWS;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6553D3A71EAF1A2400367026 /* SecondViewController.swift in Sources */,
 				65AE121E1EAF11FE00A8A6EC /* ViewController.swift in Sources */,
+				6553D3AD1EAF217C00367026 /* ThirdViewController.swift in Sources */,
 				65AE121C1EAF11FE00A8A6EC /* AppDelegate.swift in Sources */,
+				6553D3AB1EAF1D8600367026 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J248QV4EWS;
 				INFOPLIST_FILE = StoryBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sds.iphone.StoryBoard;
@@ -270,6 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = J248QV4EWS;
 				INFOPLIST_FILE = StoryBoard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sds.iphone.StoryBoard;
@@ -297,6 +312,7 @@
 				65AE122C1EAF11FE00A8A6EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
